@@ -12,6 +12,8 @@ Then startup the server with:
 
     bundle exec rails server
 
+And open your browser at: http://localhost:3000
+
 ## links
 
 * Devise, getting started https://github.com/plataformatec/devise#getting-started
