@@ -1,0 +1,11 @@
+<h2>Articles</h2>
+
+<ul>
+  <% @articles.each do |article| %>
+    <% if can? :show, article %>
+      <li><%= article.name %></li>
+    <% end %>
+  <% end %>
+</ul>
+
+<p><%= link_to("home", root_path) %></p>
