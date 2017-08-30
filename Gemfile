@@ -6,8 +6,12 @@ ruby '2.3.4'
 gem 'rails', '4.2.9'
 # Devise for authentication
 gem 'devise'
+# User roles
+gem 'cancancan', '~> 2.0' # replaces cancan gem
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# For seed data
+gem "seedbank"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
